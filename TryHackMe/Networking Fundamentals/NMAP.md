@@ -9,6 +9,7 @@
 - [Research] How many of these are considered "well-known"? (These are the "standard" numbers mentioned in the task)
 ~ 1024
 ```
+****
 ##### Task 3 : Nmap Switches
 ```
 - What is the first switch listed in the help menu for a 'Syn Scan' (more on this later!)?
@@ -44,4 +45,12 @@
 ~ --script
 - How would you activate all of the scripts in the "vuln" category?
 ~ --script=vuln
+```
+****
+##### Task 5 Scan Types TCP Connect Scans
+```
+- Which RFC defines the appropriate behaviour for the TCP protocol?
+~ RFC 793
+- If a port is closed, which flag should the server send back to indicate this?
+~ RST
 ```
