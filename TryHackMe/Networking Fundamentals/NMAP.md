@@ -54,3 +54,11 @@
 - If a port is closed, which flag should the server send back to indicate this?
 ~ RST
 ```
+****
+##### Task 6 Scan Types SYN Scans
+```
+- There are two other names for a SYN scan, what are they?
+~ Half-Open, Stealth
+- Can Nmap use a SYN scan without Sudo permissions (Y/N)?
+~ N
+```
