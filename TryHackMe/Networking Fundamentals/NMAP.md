@@ -70,3 +70,13 @@
 - When a UDP port is closed, by convention the target should send back a "port unreachable" message. Which protocol would it use to do so?
 ~ ICMP
 ```
+***
+##### Task 8 Scan Types NULL, FIN and Xmas
+```
+- Which of the three shown scan types uses the URG flag?
+~ xmas
+- Why are NULL, FIN and Xmas scans generally used?
+~ Firewall Evasion
+- Which common OS may respond to a NULL, FIN or Xmas scan with a RST for every port?
+~ Microsoft Windows
+```
