@@ -80,3 +80,9 @@
 - Which common OS may respond to a NULL, FIN or Xmas scan with a RST for every port?
 ~ Microsoft Windows
 ```
+***
+##### Task 9 Scan Types ICMP Network Scanning
+```
+- How would you perform a ping sweep on the 172.16.x.x network (Netmask: 255.255.0.0) using Nmap? (CIDR notation)
+~ nmap -sn 172.16.0.0/16
+```
