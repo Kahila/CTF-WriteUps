@@ -114,3 +114,15 @@
 - [Research] Which Nmap switch allows you to append an arbitrary length of random data to the end of packets?
 ~ --data-length
 ```
+***
+##### Task 14 - Practical
+```
+- Does the target (MACHINE_IP)respond to ICMP (ping) requests (Y/N)?
+~ N
+- Perform an Xmas scan on the first 999 ports of the target -- how many ports are shown to be open or filtered?
+~ 999
+- Perform a TCP SYN scan on the first 5000 ports of the target -- how many ports are shown to be open?
+~ 5
+- Deploy the ftp-anon script against the box. Can Nmap login successfully to the FTP server on port 21? (Y/N)
+~ Y
+```
