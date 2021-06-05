@@ -94,3 +94,23 @@
 - Which category of scripts would be a very bad idea to run in a production environment?
 ~ intrusive
 ```
+***
+##### Task 11 NSE - Scripts Working with the NSE
+```
+- What optional argument can the ftp-anon.nse script take?
+~ maxlist
+```
+***
+##### Task 12 - NSE Scripts Searching for Scripts
+```
+- What is the filename of the script which determines the underlying OS of the SMB server?
+~ smb-os-discovery.nse
+```
+***
+##### Task 13 - Firewall Evasion
+```
+- Which simple (and frequently relied upon) protocol is often blocked, requiring the use of the -Pn switch?
+~ ICMP
+- [Research] Which Nmap switch allows you to append an arbitrary length of random data to the end of packets?
+~ --data-length
+```
