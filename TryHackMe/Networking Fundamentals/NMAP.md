@@ -86,3 +86,11 @@
 - How would you perform a ping sweep on the 172.16.x.x network (Netmask: 255.255.0.0) using Nmap? (CIDR notation)
 ~ nmap -sn 172.16.0.0/16
 ```
+***
+##### Task 10 NSE Scripts Overview
+```
+- What language are NSE scripts written in?
+~ Lua
+- Which category of scripts would be a very bad idea to run in a production environment?
+~ intrusive
+```
