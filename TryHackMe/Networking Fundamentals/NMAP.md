@@ -1,6 +1,6 @@
 # Nmap
 
-##### Task 1 : Introduction
+##### Task 1 - Introduction
 ```
 - What networking constructs are used to direct traffic to the right application on a server?
 ~ Ports
@@ -10,7 +10,7 @@
 ~ 1024
 ```
 ****
-##### Task 3 : Nmap Switches
+##### Task 3 - Nmap Switches
 ```
 - What is the first switch listed in the help menu for a 'Syn Scan' (more on this later!)?
 ~ -sS
@@ -47,7 +47,7 @@
 ~ --script=vuln
 ```
 ****
-##### Task 5 Scan Types TCP Connect Scans
+##### Task 5 - Scan Types TCP Connect Scans
 ```
 - Which RFC defines the appropriate behaviour for the TCP protocol?
 ~ RFC 793
@@ -55,7 +55,7 @@
 ~ RST
 ```
 ****
-##### Task 6 Scan Types SYN Scans
+##### Task 6 - Scan Types SYN Scans
 ```
 - There are two other names for a SYN scan, what are they?
 ~ Half-Open, Stealth
@@ -63,7 +63,7 @@
 ~ N
 ```
 ****
-##### Task 7 Scan Types UDP Scans
+##### Task 7 - Scan Types UDP Scans
 ```
 - If a UDP port doesn't respond to an Nmap scan, what will it be marked as?
 ~ open|filtered
@@ -71,7 +71,7 @@
 ~ ICMP
 ```
 ***
-##### Task 8 Scan Types NULL, FIN and Xmas
+##### Task 8 - Scan Types NULL, FIN and Xmas
 ```
 - Which of the three shown scan types uses the URG flag?
 ~ xmas
@@ -81,13 +81,13 @@
 ~ Microsoft Windows
 ```
 ***
-##### Task 9 Scan Types ICMP Network Scanning
+##### Task 9 - Scan Types ICMP Network Scanning
 ```
 - How would you perform a ping sweep on the 172.16.x.x network (Netmask: 255.255.0.0) using Nmap? (CIDR notation)
 ~ nmap -sn 172.16.0.0/16
 ```
 ***
-##### Task 10 NSE Scripts Overview
+##### Task 10 - NSE Scripts Overview
 ```
 - What language are NSE scripts written in?
 ~ Lua
